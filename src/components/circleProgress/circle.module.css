@@ -1,0 +1,28 @@
+.circle__container {
+    height: 225px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.circle__background {
+    fill: #9f9f9f;
+    stroke: transparent;
+    opacity: 0.3;
+}
+
+.circle__progress {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.circle__text {
+    fill: #fff;
+    stroke: #fff;
+    font-size: 25px;
+}

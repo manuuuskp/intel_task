@@ -1,0 +1,30 @@
+.signal__container {
+    margin: 0 8px;
+  }
+  
+.signal__level {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 16px;
+  }
+  
+.signal__strength {
+      color: #ffffff;
+      font-size: 24px;
+      text-align: center;
+    }
+
+.signal__filled {
+      fill: #ffffff;
+    }
+    
+.signal__unfilled {
+      fill: #819da8;
+    }
+
+.signal__filled, .signal__unfilled {
+      cursor: pointer;
+      transition: fill 0.4s;
+    }

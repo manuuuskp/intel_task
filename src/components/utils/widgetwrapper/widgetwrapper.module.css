@@ -1,0 +1,16 @@
+.widgetwrapper {
+    height: 400px;
+    width: 300px;
+    background-color: #325d6e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+    margin: 0 8px;
+}
+
+.widgetwrapper:hover {
+    box-shadow: 5px 10px 10px #7c7c7c;
+}

@@ -1,0 +1,7 @@
+.widget__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 50px 0;
+}
